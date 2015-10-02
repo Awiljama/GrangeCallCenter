@@ -8,5 +8,6 @@ namespace GrangeCallCenter
 {
     public class GCCQualityControl
     {
+        // TODO: - create class implementation
     }
 }

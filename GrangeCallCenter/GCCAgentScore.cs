@@ -8,9 +8,10 @@ namespace GrangeCallCenter
 {
     public class GCCAgentScore
     {
-        public GCCAHT AHTScore { get; private set; }
-        public GCCQualityControl QualityControlScore { get; private set; }
-        public GCCKnowledgeCheck KnowledgeCheckScore { get; private set; }
-        public GCCAdherence AdherenceScore { get; private set; }
+        // TODO: - add calculation method for weighted score
+        public GCCAHT AHTScore { get; }
+        public GCCQualityControl QualityControlScore { get; }
+        public GCCKnowledgeCheck KnowledgeCheckScore { get; }
+        public GCCAdherence AdherenceScore { get; }
     }
 }

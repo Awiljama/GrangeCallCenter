@@ -8,6 +8,7 @@ namespace GrangeCallCenter
 {
     public class GCCKnowledgeCheck
     {
-        public double KnowledgeCheckScore { get; private set; }
+        // property KnowledgeCheckScore will be persisted
+        public double KnowledgeCheckScore { get; }
     }
 }
